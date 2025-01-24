@@ -2,7 +2,7 @@
 function NotFound() {
   return (
     <div>
-        <h1> Page Doesn't Exists </h1>
+        <h1> Page Doesn't Exist </h1>
     </div>
   );
 }
