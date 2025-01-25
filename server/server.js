@@ -18,9 +18,9 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 
 mongoose
     .connect(
-        "mongodb+srv://mayankharsh33:Ecommerce@cluster0.cbc9s.mongodb.net/"
+        "mongodb+srv://mayankharsh33:Ecommerce@cluster0.cbc9s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         )
-    .then( () => console.log("MongoDB connected"))
+    .then( () => console.log("MongoDB connect"))
     .catch((error) => console.log(error));
 
 const app = express();
