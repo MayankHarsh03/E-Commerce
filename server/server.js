@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 5001; // very important it will define server
 
 app.use(
     cors({
-        origin : "http://localhost:5173",
+        origin : "https://e-commerce-ruddy-five.vercel.app/auth/login",
         method : ["GET", "POST", "DELETE", "PUT"],
         allowedHeaders : [
             "Content-Type",
